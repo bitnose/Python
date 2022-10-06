@@ -21,3 +21,4 @@ for i in range(6, 19, 3):
     print(i)
 
 age = int("ten years")
+
