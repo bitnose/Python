@@ -13,3 +13,6 @@ print(balance)
 numbers = [3, 1, 4, 5]
 numbers[1] = 5
 numbers[4] = 2
+
+for x in range(1, 10, 3):
+    print(x)
