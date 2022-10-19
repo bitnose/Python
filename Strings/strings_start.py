@@ -1,0 +1,5 @@
+a = input("Enter a string: ")
+print()
+print(a.lower())
+print(a.upper())
+print(f"{len(a)} characters")

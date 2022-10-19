@@ -63,3 +63,7 @@ y = x.split(c)
 z = c.join(y)
 # Prints the z.
 print(z)
+
+a = ["4", "2", "9"]
+b = ["4", "100"]
+print(a > b)
