@@ -2,7 +2,6 @@ def multiply_by_two(list):
     for item in range(len(list)):
         list[item] = list[item] * 2 
 
-
 def main():
     numbers = [1, 2, 3, 4, 5, 6]
     more_numbers = [10, 20, 30]
