@@ -1,17 +1,17 @@
 from tokenize import String
-a = input("Enter first string: ")
-pearl_count = None
 
-try:
-    while str(a).lower() != "quit": 
-        if a.lower() == "pearl":
-            pearl_count += 1
-        a = input("Enter second string: ")
-    
-    print()
-    if pearl_count != None:
-        print(f"{pearl_count} pearls")
+a = str(input("Enter first string: ")).lower()
+pearl_count = 0
+
+if a == "quit":
     print("Bye!")
+    
+else:
+    while a != "quit": 
+        if a == "pearl":
+            pearl_count += 1
+        a = str(input("Enter next string: ")).lower()
 
-except ValueError:
-    print(f"'Is not a string")
+    if pearl_count > 0:
+        print(f"{pearl_count} pearls")
+        print("Bye!")

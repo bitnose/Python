@@ -9,5 +9,8 @@ def make_key(s: str) -> str:
     return key
 def main():
     strings = ["ä", "å", "Ö", "By", "bag"]
-    print(sorted(strings)) # ['By', 'bag', 'Ö', 'ä', 'å'] print(sorted(strings, key=make_key)) # ['bag', 'By', 'å', 'ä', 'Ö']
+    print(sorted(strings)) 
+    ['By', 'bag', 'Ö', 'ä', 'å'] 
+    print(sorted(strings, key=make_key)) 
+    ['bag', 'By', 'å', 'ä', 'Ö']
 main()

@@ -9,4 +9,4 @@
 first = str(input("Enter first string: "))
 second = str(input("Enter second string: "))
 
-print("Same characters" if sorted(first.strip().lower()) == sorted(second.strip().lower()) else "Different characters")
+print("Same characters" if sorted(first.strip().replace(" ", "").lower()) == sorted(second.strip().replace(" ", "").lower()) else "Different characters")
